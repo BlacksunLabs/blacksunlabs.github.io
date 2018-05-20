@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {% assign author = site.data.authors[page.author] %}
+
+  {% if author %}
+    <span>
+        Written by 
+        {% if author.twitter %}
+          <a href={{ author.twitter }}>
+        {% endif %}
+         <b>{{ author.name }}</b> 
+        {% if author.twitter %}
+        </a>
+        {% endif %}
+    </span>
+  {% endif %}
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <hr>
+  {{ content }}
+</div>

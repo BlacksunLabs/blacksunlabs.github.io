@@ -1,0 +1,19 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Blacksun Hackers Club
+tagline:             ''
+description:         "We're just a group of hackers doing what we find fun."
+url:                 
+baseurl:             ''
+github:              https://github.com/BlacksunHackers
+permalink:           /:categories/:year/:month/:title/
+# Custom vars
+version:             1.0.0
+
+gems: [jekyll-paginate, jekyll-gist]
+paginate: 2
+paginate_path: "page:num"
