@@ -9,7 +9,7 @@ tagline:             ''
 description:         "We're just a group of hackers doing what we find fun."
 url:                 
 baseurl:             ''
-github:              https://github.com/BlacksunHackers
+github:              https://github.com/blacksunlabs
 permalink:           /:categories/:year/:month/:title/
 # Custom vars
 version:             1.0.0
