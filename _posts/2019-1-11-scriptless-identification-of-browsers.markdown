@@ -89,7 +89,7 @@ One thing to note is the inclusion of certain headers such as `DNT` and `Pragma`
 ## My favorite rapper is 2-PoC ##
 (Ok, so there aren't really 2 PoCs and I don't really like 2-Pac but I needed a pun for this second title.)
 
-I've shared a PoC node.js server that outputs the detected browser using both request header order as well as unique header details. You can check it out at https://github.com/n0ncetonic/browseRekt 
+I've shared a PoC node.js server that outputs the detected browser using both request header order as well as unique header details. You can check it out at https://github.com/n0ncetonic/browseRekt .
 
 ## Closing ##
 As a simple PoC there are definitely browsers missing and more research that could be done; that is an exercise left to the reader. Something worth noting is that as many browsers base their code on the open-source Chromium project (Opera, Vidalia, etc.) this technique will inaccurately assume these browsers to be Chrome. This is a limitation of this technique and other identification methods must be leveraged in order to accurately determine whether the browser is in fact Chrome or a branched code base.
