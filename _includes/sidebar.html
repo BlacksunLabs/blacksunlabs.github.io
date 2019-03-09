@@ -29,7 +29,7 @@
             <p>Archives</p>
        </div>
        {% for post in site.posts %}    
-          <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}<a>/a>
+          <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
        {% endfor %}
      </nav>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
