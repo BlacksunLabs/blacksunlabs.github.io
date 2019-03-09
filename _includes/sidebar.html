@@ -25,6 +25,42 @@
       {% endif %}
     {% endfor %}
 
+       {% assign currentYear = site.time | date: "%Y" %}
+{% assign currentMonth = site.time | date: "%B" %}
+{% for post in site.posts %}
+    
+    {% assign postYear = post.date | date: "%Y" %}
+    {% assign postMonth = post.date  | date: "%B" %}
+    
+    {% if forloop.first %}
+    <li> {{ postYear}}
+        <ul>
+            <li> {{ postMonth }}
+                <ul>
+    {% endif %}
+    
+    {% if (postYear == currentYear and postMonth == currentMonth) or forloop.first %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endif %}
+    
+    {% if postYear == currentYear and postMonth != currentMonth %}
+        </ul></li>
+        <li> {{ postMonth }}
+            <ul>
+                <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endif %}
+    
+    {% if postYear != currentYear %}
+        </ul></li></ul></li>
+            <li> {{ postYear}}
+                <ul>
+                    <li> {{ postMonth }}
+                        <ul>
+                            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endif %}
+    {% assign currentYear = postYear %}
+    {% assign currentMonth = postMonth %}
+{% endfor %}
     <a class="sidebar-nav-item" href="{{ site.github }}">GitHub</a>
   </nav>
 
