@@ -65,4 +65,4 @@ Adding this simple one-liner into `analytics.sh` will cause the contents of the 
 
 These PoCs are intended to be used as demos in aiding teams attempting to write detections around TTPs which could be leveraged by threat actors to avoid triggering common persistence detection checks . The potential for far more complex payloads which take advantage of this Technique are the responsibility of the reader to create.
 
-If you do happen to come up with something fun that takes advantage of this simple `brew` command hijack please let me know via twitter @n0ncetonic
+If you do happen to come up with something fun that takes advantage of this simple `brew` command hijack please let me know via twitter @noncetonic
