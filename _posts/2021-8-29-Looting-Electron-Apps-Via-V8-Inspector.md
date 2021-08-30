@@ -85,6 +85,8 @@ func main() {
 }
 ```
 
+For the full code with the example scripts, check out [electron-probe](https://github.com/xpcmdshell/electron-probe).
+
 ## Building Something Useful
 Particularly of interest are the [Session API](https://www.electronjs.org/docs/api/session) and the [WebContents API](https://www.electronjs.org/docs/api/web-contents).
 
@@ -105,8 +107,7 @@ You may notice that we used `JSON.stringify` on the result. Getting values out o
 
 Running the result, it appears to work:
 ```shell
-$ ./electron-probe -inspect-target http://localhost:9229 -script scripts/dump_slack_
-cookies.js | jq 
+$ ./electron-probe -inspect-target http://localhost:9229 -script scripts/dump_slack_cookies.js | jq 
 
 [
   [... SNIP]
