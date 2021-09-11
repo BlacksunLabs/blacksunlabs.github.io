@@ -2,6 +2,7 @@
 author: noncetonic
 layout: post
 title: iCloud Authentication Token acquisition on macOS
+tags: [MacOS, Post-Exploitation]
 ---
 
 ## Foreward ##

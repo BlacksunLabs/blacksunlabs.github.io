@@ -2,6 +2,7 @@
 author: actae0n 
 layout: post
 title: Looting Electron Apps Via The V8 Inspector
+tags: [MacOS, Post-Exploitation]
 ---
 ## What Is The V8 Inspector?
 V8 is the JavaScript engine that ships as part of both Chromium (and derivatives) as well as Node (which is in turn included in Electron). V8 provides a [debugging interface](https://v8.dev/docs/inspector) that implements a subset of the Chrome DevTools Protocol (hereafter referred to as CDP). In Chromium, Chrome, and other Blink based browsers, methods from all Domains of CDP are exposed through the stub (see the ["tip-of-tree"](https://chromedevtools.github.io/devtools-protocol/tot/) or ["stable"](https://chromedevtools.github.io/devtools-protocol/1-2/) protocol versions). This will include methods to interface with some of the browser-oriented elements, such as the DOM, page, etc.  However, in Electron applications, we're targeting the Node environment. This relegates us to a smaller subset of the CDP ([v8-inspector (node)](https://chromedevtools.github.io/devtools-protocol/v8/)). 

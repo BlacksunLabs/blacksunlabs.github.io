@@ -2,6 +2,7 @@
 author: noncetonic
 layout: post
 title: Chrome Arbitrary Javascript Injection Via AppleScript
+tags: [MacOS, Post-Exploitation]
 ---
 
 ## Foreword ##

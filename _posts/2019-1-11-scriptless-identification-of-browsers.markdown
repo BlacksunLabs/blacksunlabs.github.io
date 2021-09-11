@@ -2,6 +2,7 @@
 author: noncetonic
 layout: post
 title: Scriptless Identification of Browsers
+tags: [Fingerprinting]
 ---
 
 ## Foreword ##

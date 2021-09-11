@@ -2,6 +2,7 @@
 author: noncetonic
 layout: post
 title: macOS Persistence via iTerm
+tags: [MacOS, Persistence]
 ---
 
 ## Foreword ##

@@ -2,6 +2,7 @@
 author: actae0n
 layout: post
 title: Leveraging Application Verifier for Function Hooking and Persistence
+tags: [Windows, Persistence]
 ---
 
 ## Introduction to Application Verifier ##

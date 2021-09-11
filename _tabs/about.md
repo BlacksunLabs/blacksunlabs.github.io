@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Mission Statement
+title: About
+icon: fas fa-info
+order: 4
 ---
 
 The Blacksun Hackers Club is first and foremost a community aimed at fostering education, creativity, and critical thinking across the discipline of Information Security. Founded around the idea that security belongs to everyone, opportunities to learn, grow, and excel in Information Security are offered to all members of this community, new and old. The Blacksun Hackers Club thus attempts to satisfy the following goals:
