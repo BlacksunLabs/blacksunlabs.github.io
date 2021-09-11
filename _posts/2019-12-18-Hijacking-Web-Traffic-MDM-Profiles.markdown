@@ -2,6 +2,7 @@
 author: actae0n 
 layout: post
 title: Hijacking Web Traffic On MacOS and iOS With MDM Profiles
+tags: [MacOS]
 ---
 ## What Are MDM Profiles?
 MDM profiles allow organizations to deploy common device configurations across MacOS and iOS devices. They can be deployed by hand, or via 3rd party MDM solutions such as [Jamf](https://www.jamf.com/) or [Munki](https://github.com/munki/munki/wiki/Managing-Configuration-Profiles). They're deployed as `.mobileconfig` files, which are just XML under the hood. Here's an example config that enforces a wallpaper setting:

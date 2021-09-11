@@ -2,6 +2,7 @@
 author: noncetonic
 layout: post
 title: Cultivating An Online Persona Part 1 - Bypassing Gmail's Phone Verification
+tags: [OSINT]
 ---
 
 ## Foreword ##

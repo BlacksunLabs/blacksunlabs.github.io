@@ -2,6 +2,7 @@
 author: noncetonic
 layout: post
 title: Acquiring and Abusing Slack Legacy Tokens on macOS
+title: [MacOS, Post-Exploitation]
 ---
 
 ## Foreward 

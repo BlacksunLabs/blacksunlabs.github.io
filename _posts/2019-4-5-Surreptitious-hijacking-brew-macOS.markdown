@@ -2,6 +2,7 @@
 author: noncetonic
 layout: post
 title: HomeBrood 0x00 - Surreptitious hijacking of Homebrew on macOS
+tags: [MacOS, Persistence]
 ---
 
 ## Foreward 
