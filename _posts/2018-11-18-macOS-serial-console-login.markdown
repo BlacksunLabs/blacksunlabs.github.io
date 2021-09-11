@@ -2,6 +2,7 @@
 author: n0ncetonic
 layout: post
 title: macOS Serial Console Login
+tags: [MacOS, Post-Exploitation]
 ---
 
 ## Foreword ##
